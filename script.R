@@ -1,6 +1,5 @@
 library(ggplot2)
 library(dplyr)
-library(ggrepel)
 
 starwars %>%
   filter(species == "Human" & !is.na(height)) %>%
