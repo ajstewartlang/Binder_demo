@@ -1,6 +1,6 @@
 FROM rocker/binder:3.5.0
 
-FROM rocker/rstudio:tidyverse
+FROM rocker/tidyverse
 
     
 # Copy your repository contents to the image
