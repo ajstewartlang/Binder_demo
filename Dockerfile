@@ -1,7 +1,5 @@
-FROM rocker/binder:3.5.0
-
-#FROM rocker/tidyverse
-
+FROM rocker/binder:3.6.0
+FROM rocker/tidyverse
     
 # Copy your repository contents to the image
 COPY --chown=rstudio:rstudio . ${HOME}
