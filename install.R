@@ -1,5 +1,5 @@
-# We're not loading any additional packages but if we were to load gpglot2 (say) 
-# we would drop the following #
+# Below add install.packages() for the installation of each package needed
+# I'm installing the entire tidyverse here
 
 install.packages("tidyverse")
 
